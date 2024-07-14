@@ -1,0 +1,73 @@
+.overlay2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .overlay-content2 {
+    background-color: #fff;
+    padding: 30px;
+  
+    text-align: center;
+    height:70%;
+    border-radius:10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius:10px;
+    margin-top: 14px;
+    margin-right:20px;
+    width:100%;
+  }
+  
+  .login-button {
+    padding: 10px;
+    background-color:#d40726ef;
+    color: #fff;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+  
+  }
+.pinterest2-icon{
+    width:50px;
+}
+  

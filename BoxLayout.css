@@ -1,0 +1,170 @@
+
+.box-container {
+  box-sizing: border-box; 
+  display: flex;
+  width: 100%;
+  height: 90%; /* Adjust height as needed */
+  border: 1px solid #ccc;
+  margin: 1%;
+  border-radius: 5px;
+  flex-direction: column; 
+  /* Add this line */
+}
+
+.boxl {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 3%;
+}
+
+.w {
+  color: white;
+  width: 100%; /* Ensure the heading spans the full width */
+  text-align: center; /* Center the heading */
+}
+
+.board-container {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  height:40%;
+  margin-bottom: 10%;
+  width: 45%; /* Same as box-container to maintain consistency */
+}
+
+.board-name {
+  text-align: center;
+  font-size: 1.2em;
+  
+  color: white; /* Adjust color to suit your design */
+}
+
+.image-container {
+  display: flex;
+  width: 100%;
+  height: 100%; /* Adjust height as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-direction: row; /* Add this line */
+}
+
+.left-pane {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #ccc;
+}
+
+.left-pane img {
+  background-color: grey;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-right {
+  flex: 1;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.upper-right img {
+  background-color: grey;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lower-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensures overflow is hidden */
+}
+
+.lower-right img {
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+h6{
+  font-size:8px;
+  margin:0px;
+}
+
+.create-board-button {
+  background-color:rgb(223, 217, 217);
+ 
+  font-size: 14px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-board-button:hover {
+  background-color:#d40726ef;
+}
+.board-input{
+ border:none;
+ margin-right: 5px;
+ border-radius: 10px;
+ padding:10px;
+ text-decoration: white;;
+ height:15%;
+}
+
+
+/* Alert container */
+.alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e1e1e1;
+  padding: 12px 16px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+/* Alert content */
+.alert-message {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Show animation for alert */
+.alert.show {
+  display: block;
+  animation: slideIn 0.3s ease forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

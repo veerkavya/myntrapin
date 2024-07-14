@@ -1,0 +1,135 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #ffffff; /* Adjust as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example shadow */
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.center-section {
+    flex: 1; /* Takes up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.search-box {
+    width: 60%; /* Takes full width of center-section */
+    padding: 8px;
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 4px;
+   
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+.right-section img{
+    margin: 0px 1em;
+}
+.logo {
+    width: 110px; /* Adjust logo size */
+    height: 100px;
+}
+
+.search-icon, .pinterest-icon {
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+    margin-left: 10px; /* Adjust spacing between icons */
+    cursor: pointer;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-section .logo {
+    height: 40px;
+  }
+  
+  .center-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-box {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-section {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .search-icon, .pinterest-icon {
+    cursor: pointer;
+    height: 30px;
+  }
+  
+  .pinterest-icon {
+    
+    transition: filter 0.3s ease;
+  }
+  
+
+  
+  .create-board-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .board-input {
+    width: 200px;
+    height: 36px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-board-button {
+    background-color:#d40726ef;
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-board-button:hover {
+    background-color:#d40726ef;
+  }
+  .logout-button
+  {
+    border: none;
+    background: none;  }
+button{
+    background: none;
+    border:none;
+}

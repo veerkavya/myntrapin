@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.overlay {
+  position: fixed; /* Ensures overlay covers entire viewport */
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background:#d40726ef; /* Dark semi-transparent background */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 20px;
+  align-items: center;
+  z-index: 1000; /* Ensure it is on top of other elements */
+  overflow-y: auto; /* Allow vertical scrolling */
+
+}
+
+.overlay.active {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+  

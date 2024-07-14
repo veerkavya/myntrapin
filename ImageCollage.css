@@ -1,0 +1,148 @@
+
+
+  .banner-container {
+    height: 100%;
+    /* Hide overflowing content */
+  }
+  
+  .my-masonry-grid {
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+  }
+  
+  .my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+    height: 100%;
+  }
+  
+  .masonry-item {
+    margin-bottom: 30px;
+  }
+  
+  .masonry-item img {
+    width: 100%;
+    height: 50%; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }  
+
+  
+  .cover{
+    width:100%;
+    height:300px;
+   margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    overflow: hidden; 
+  }
+  .banner-container{
+    width:60%;
+    height:100%;
+    overflow: hidden; 
+  }
+  
+  .content {
+    padding: 20px;
+  } 
+  .bbtn{
+    background: none;
+    border: none;
+  }
+ 
+
+.ms {
+    height: 80%; /* Full height container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    overflow-y: auto;
+    padding: 2.5%;
+  }
+  .yp{
+    position:absolute;
+    top: 1%;
+    left: 9.5%;
+
+    background: none;
+    color:white;
+  }
+ 
+ 
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  .msg{
+    margin: 20% 4% 4% 4%;
+    height: 100%;
+  }
+
+
+
+
+  /* App.css */
+
+.masonry-item {
+    position: relative;
+   
+  }
+  
+
+  
+  .masonry-item .overlay-buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding:2px;
+    opacity: 0;
+  
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .masonry-item:hover .overlay-buttons {
+    opacity: 1;
+  }
+  
+  .overlay-buttons button {
+    display: block;
+   
+   background: none;
+    color:white;
+    size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+.iml{
+   
+  height:45%;
+}
+
+.colo{
+    background-color:white;
+}
+.close{
+    font-weight: bolder;
+}
+
+h4{
+  color:white;
+}

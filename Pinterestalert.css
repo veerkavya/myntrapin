@@ -1,0 +1,25 @@
+.pinterest-alert21{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e60023;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .alert-content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .alert-message2 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+  
